@@ -1,0 +1,198 @@
+{
+  "name": "theMainGrid",
+  "background": "#000000",
+  "columnCount": 3,
+  "rowCount": 4,
+  "rows": [
+    {
+      "rowNum": 0,
+      "rowsControls": [
+      ]
+    },
+    {
+      "rowNum": 1,
+      "rowsControls": [
+        {
+          "name": "gridFirst",
+          "columnNum": 0,
+          "columnSpan": 1,
+          "rowSpan": 1,
+          "controlType": "GridLayout",
+          "minWidth": 150,
+          "containerControls": {
+            "name": "theFirstGrid",
+            "background": "#CECBCE",
+            "columnCount": 1,
+            "rowCount": 10,
+            "minRowHeight": 30,
+            "rows": [
+              {
+                "rowNum": 1,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "Tanks",
+                    "textAlignment": "Center",
+                    "textBackgroundColor": "#2B78E4",
+                    "textColor": "#ffffff",
+                    "textTypeface": "Bold",
+                    "textSize": 16,
+                    "minWidth": 150
+                  }
+                ]
+              },
+              {
+                "rowNum": 2,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "000044000002",
+                    "minWidth": 150,
+                    "textAlignment": "Center",
+                    "textColor": "#000000"
+                  }
+                ]
+              },
+              {
+                "rowNum": 3,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "000044000003",
+                    "minWidth": 150,
+                    "textAlignment": "Center",
+                    "textColor": "#000000"
+                  }
+                ]
+              },
+              {
+                "rowNum": 4,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "000044000004",
+                    "minWidth": 150,
+                    "textAlignment": "Center",
+                    "textColor": "#000000"
+                  }
+                ]
+              },
+              {
+                "rowNum": 5,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "000044000005",
+                    "minWidth": 150,
+                    "textAlignment": "Center",
+                    "textColor": "#000000"
+                  }
+                ]
+              },
+              {
+                "rowNum": 6,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "000044000006",
+                    "minWidth": 150,
+                    "textAlignment": "Center",
+                    "textColor": "#000000"
+                  }
+                ]
+              },
+              {
+                "rowNum": 7,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "000044000007",
+                    "minWidth": 150,
+                    "textAlignment": "Center",
+                    "textColor": "#000000"
+                  }
+                ]
+              },
+              {
+                "rowNum": 8,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "000044000008",
+                    "minWidth": 150,
+                    "textAlignment": "Center",
+                    "textColor": "#000000"
+                  }
+                ]
+              },
+              {
+                "rowNum": 9,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "000044000009",
+                    "minWidth": 150,
+                    "textAlignment": "Center",
+                    "textColor": "#000000"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "gridSecond",
+          "columnNum": 1,
+          "columnSpan": 2,
+          "rowSpan": 1,
+          "controlType": "GridLayout",
+          "minWidth": 150,
+          "containerControls": {
+            "name": "theSecondGrid",
+            "background": "#666666",
+            "columnCount": 4,
+            "rowCount": 10,
+            "minRowHeight": 30,
+            "rows": [
+              {
+                "rowNum": 1,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "Tanks - 000044000002",
+                    "textAlignment": "Center",
+                    "textBackgroundColor": "#2B78E4",
+                    "textColor": "#ffffff",
+                    "textTypeface": "Bold",
+                    "textSize": 16,
+                    "minWidth": 150
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-82dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.home.HomeFragment">
+
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:background="#ED5151"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="320dp"
+                android:layout_height="0dp"
+                android:background="#7E4A4A"
+                android:gravity="center"
+                android:text="TextView One"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/text_home"
+                app:layout_constraintStart_toEndOf="@+id/text_home"
+                app:layout_constraintTop_toTopOf="@+id/text_home" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="320dp"
+                android:layout_height="0dp"
+                android:background="#2086BD"
+                android:gravity="center"
+                android:text="TextView Two"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintTop_toTopOf="@+id/textView" />
+
+            <Button
+                android:id="@+id/btnOpenOtherApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="#865BF3"
+                android:text="Button To Open Other App"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/txtWidth"
+                app:layout_constraintTop_toBottomOf="@+id/txtWidth" />
+
+            <Button
+                android:id="@+id/btnChangeHeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="#F69F34"
+                android:text="Button To Change Height"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/btnOpenOtherApp"
+                app:layout_constraintStart_toStartOf="@+id/btnOpenOtherApp"
+                app:layout_constraintTop_toBottomOf="@+id/btnOpenOtherApp" />
+
+            <EditText
+                android:id="@+id/txtWidth"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="50dp"
+                android:gravity="right"
+                android:inputType="text"
+                android:text="320"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_home" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="56dp"
+                android:layout_height="17dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Width"
+                app:layout_constraintBottom_toTopOf="@+id/txtWidth"
+                app:layout_constraintEnd_toEndOf="@+id/txtWidth"
+                app:layout_constraintStart_toStartOf="@+id/txtWidth" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintStart_toEndOf="@+id/txtWidth"
+                app:layout_constraintTop_toTopOf="@+id/txtWidth" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

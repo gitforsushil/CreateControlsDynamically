@@ -1,0 +1,449 @@
+{
+  "name": "theMainGrid",
+  "background": "#000000",
+  "columnCount": 4,
+  "columnWeights": "0.7,1.5,0.5,1.3",
+  "rowCount": 7,
+  "rows": [
+    {
+      "rowNum": 0,
+      "rowsControls": [
+      ]
+    },
+    {
+      "rowNum": 1,
+      "rowsControls": [
+        {
+          "name": "control1",
+          "columnNum": 0,
+          "controlType": "TextView",
+          "text": "Order #",
+          "minWidth": 150
+        },
+        {
+          "name": "control2",
+          "columnNum": 1,
+          "controlType": "TextView",
+          "text": "165023421",
+          "minWidth": 150
+        },
+        {
+          "name": "control3",
+          "columnNum": 2,
+          "controlType": "TextView",
+          "text": "Operator",
+          "minWidth": 150
+        },
+        {
+          "name": "control4",
+          "columnNum": 3,
+          "controlType": "TextView",
+          "text": "BURLINGTON RESOURCE",
+          "minWidth": 150
+        }
+      ]
+    },
+    {
+      "rowNum": 2,
+      "rowsControls": [
+        {
+          "name": "Lease Name",
+          "columnNum": 0,
+          "controlType": "TextView",
+          "text": "Lease Name",
+          "minWidth": 150
+        },
+        {
+          "name": "control2",
+          "columnNum": 1,
+          "controlType": "TextView",
+          "wrapText": "true",
+          "text": "This Lease name is very big and will wrap to multiple rows.",
+          "minWidth": 150,
+          "columnSpan": 1
+        },
+        {
+          "name": "control4",
+          "columnNum": 2,
+          "controlType": "TextView",
+          "text": "Bill To",
+          "minWidth": 150
+        },
+        {
+          "name": "control4",
+          "columnNum": 3,
+          "controlType": "TextView",
+          "text": "Burlington Resource",
+          "minWidth": 150
+        }
+      ]
+    },
+    {
+      "rowNum": 3,
+      "rowsControls": [
+        {
+          "name": "control1",
+          "columnNum": 0,
+          "controlType": "TextView",
+          "text": "Destination",
+          "minWidth": 150
+        },
+        {
+          "name": "control2",
+          "columnNum": 1,
+          "controlType": "TextView",
+          "text": "JELLESED SWD 1",
+          "minWidth": 150
+        },
+        {
+          "name": "control3",
+          "columnNum": 2,
+          "controlType": "TextView",
+          "text": "Commodity",
+          "minWidth": 150,
+          "rowSpan": 1
+        },
+        {
+          "name": "control4",
+          "columnNum": 3,
+          "controlType": "TextView",
+          "text": "",
+          "minWidth": 150
+        }
+      ]
+    },
+    {
+      "rowNum": 4,
+      "rowsControls": [
+        {
+          "name": "control1",
+          "columnNum": 0,
+          "controlType": "TextView",
+          "text": "Rig Name - #",
+          "minWidth": 150
+        },
+        {
+          "name": "control2",
+          "columnNum": 1,
+          "controlType": "TextView",
+          "text": "HARLEY A-2232124476",
+          "minWidth": 150
+        }
+      ]
+    },
+    {
+      "rowNum": 5,
+      "rowsControls": [
+        {
+          "name": "gridSecond",
+          "columnNum": 0,
+          "columnSpan": 4,
+          "rowSpan": 2,
+          "controlType": "GridLayout",
+          "minWidth": 150,
+          "containerControls": {
+            "name": "theSecondGrid",
+            "background": "#666666",
+            "columnCount": 5,
+            "rowCount": 9,
+            "rows": [
+              {
+                "rowNum": 0,
+                "rowsControls": [
+                ]
+              },
+              {
+                "rowNum": 1,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "Trailer #",
+                    "minWidth": 100
+                  },
+                  {
+                    "name": "control2",
+                    "columnNum": 1,
+                    "controlType": "EditText",
+                    "text": "112243",
+                    "textHint": "Trailer Number",
+                    "minWidth": 150
+                  },
+                  {
+                    "name": "gridRightSide",
+                    "columnNum": 4,
+                    "columnSpan": 1,
+                    "rowSpan": 3,
+                    "controlType": "GridLayout",
+                    "minWidth": 100,
+                    "isContainer": true,
+                    "containerControls": {
+                      "name": "theRightGrid",
+                      "background": "#2B78E4",
+                      "columnCount": 1,
+                      "rowCount": 3,
+                      "rows": [
+                        {
+                          "rowNum": 0,
+                          "rowsControls": [
+                            {
+                              "name": "control1",
+                              "columnNum": 0,
+                              "controlType": "TextView",
+                              "text": "Total Barrel",
+                              "textAlignment": "Center",
+                              "textTypeface": "Bold",
+                              "minWidth": 150
+                            }
+                          ]
+                        },
+                        {
+                          "rowNum": 1,
+                          "rowsControls": [
+                            {
+                              "name": "control1",
+                              "columnNum": 0,
+                              "controlType": "EditText",
+                              "textHint": "Total Barrels",
+                              "minWidth": 150
+                            }
+                          ]
+                        },
+                        {
+                          "rowNum": 2,
+                          "rowsControls": [
+                            {
+                              "name": "control1",
+                              "columnNum": 0,
+                              "controlType": "EditText",
+                              "textHint": "Combo Barrels",
+                              "minWidth": 150
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "rowNum": 2,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "Tanks Manifolded:",
+                    "minWidth": 100
+                  },
+                  {
+                    "name": "control2",
+                    "columnNum": 1,
+                    "controlType": "EditText",
+                    "text": "Yes",
+                    "minWidth": 150,
+                    "columnSpan": 0
+                  },
+                  {
+                    "name": "control4",
+                    "columnNum": 2,
+                    "controlType": "TextView",
+                    "text": "# of Tanks Manifolded:",
+                    "minWidth": 150
+                  },
+                  {
+                    "name": "control4",
+                    "columnNum": 3,
+                    "controlType": "EditText",
+                    "text": "3",
+                    "width": 60
+                  }
+                ]
+              },
+              {
+                "rowNum": 3,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "Tank Height:",
+                    "minWidth": 100
+                  },
+                  {
+                    "name": "control2",
+                    "columnNum": 1,
+                    "controlType": "EditText",
+                    "text": "21 ft",
+                    "minWidth": 150
+                  },
+                  {
+                    "name": "control1",
+                    "columnNum": 2,
+                    "controlType": "TextView",
+                    "text": "Tank Capacity:",
+                    "minWidth": 150
+                  },
+                  {
+                    "name": "control4",
+                    "columnNum": 3,
+                    "controlType": "EditText",
+                    "text": "410 barrels"
+                  }
+                ]
+              },
+              {
+                "rowNum": 4,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "Is this manifold configuration accurate?:",
+                    "wrapText": "false",
+                    "columnSpan": 2,
+                    "minWidth": 100
+                  },
+                  {
+                    "name": "control2",
+                    "columnNum": 2,
+                    "controlType": "TextView",
+                    "text": ". Yes / . NO",
+                    "minWidth": 150
+                  }
+                ]
+              },
+              {
+                "rowNum": 5,
+                "rowsControls": [
+                  {
+                    "controlType": "EmptyRow",
+                    "emptyRowHeight": 20
+                  }
+                ]
+              },
+              {
+                "rowNum": 6,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "Open Gauge:",
+                    "minWidth": 100
+                  },
+                  {
+                    "name": "control4",
+                    "columnNum": 1,
+                    "controlType": "EditText",
+                    "text": "3",
+                    "minWidth": 40
+                  },
+                  {
+                    "name": "control1",
+                    "columnNum": 1,
+                    "controlType": "TextView",
+                    "text": "FT",
+                    "minWidth": 40
+                  },
+                  {
+                    "name": "control4",
+                    "columnNum": 1,
+                    "controlType": "EditText",
+                    "text": "31",
+                    "minWidth": 40
+                  },
+                  {
+                    "name": "control1",
+                    "columnNum": 1,
+                    "controlType": "TextView",
+                    "text": "IN",
+                    "minWidth": 40
+                  },
+                  {
+                    "name": "control4",
+                    "columnNum": 2,
+                    "controlType": "TextView",
+                    "text": "Water Weight",
+                    "minWidth": 150
+                  },
+                  {
+                    "name": "control4",
+                    "columnNum": 3,
+                    "controlType": "EditText",
+                    "text": "3",
+                    "minWidth": 150
+                  },
+                  {
+                    "name": "control1",
+                    "columnNum": 4,
+                    "controlType": "TextView",
+                    "text": "LBS/GALLON",
+                    "minWidth": 40
+                  }
+                ]
+              },
+              {
+                "rowNum": 7,
+                "rowsControls": [
+                  {
+                    "name": "control1",
+                    "columnNum": 0,
+                    "controlType": "TextView",
+                    "text": "Close Gauge:",
+                    "minWidth": 100
+                  },
+                  {
+                    "name": "control4",
+                    "columnNum": 1,
+                    "controlType": "EditText",
+                    "text": "3",
+                    "minWidth": 40
+                  },
+                  {
+                    "name": "control1",
+                    "columnNum": 1,
+                    "controlType": "TextView",
+                    "text": "FT",
+                    "minWidth": 40
+                  },
+                  {
+                    "name": "control4",
+                    "columnNum": 1,
+                    "controlType": "EditText",
+                    "text": "31",
+                    "minWidth": 40
+                  },
+                  {
+                    "name": "control1",
+                    "columnNum": 1,
+                    "controlType": "TextView",
+                    "text": "IN",
+                    "minWidth": 40
+                  },
+                  {
+                    "name": "control1",
+                    "columnNum": 4,
+                    "controlType": "TextView",
+                    "text": "@ Hit Oil",
+                    "minWidth": 40
+                  }
+                ]
+              },
+              {
+                "rowNum": 8,
+                "rowsControls": [
+                  {
+                    "controlType": "EmptyRow",
+                    "emptyRowHeight": 10
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_summary">
+
+    <fragment
+        android:id="@+id/nav_summary"
+        android:name="com.example.createcontrolsdynamically.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_pickup"
+        android:name="com.example.createcontrolsdynamically.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_pickup"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_dynamiccontrols"
+        android:name="com.example.createcontrolsdynamically.DynamicControlsLandingFragment"
+        android:label="Control Layouts"
+        tools:layout="@layout/fragment_dynamic_controls_landing" >
+        <action
+            android:id="@+id/action_nav_dynamiccontrols_to_dynamicControlsDemo"
+            app:destination="@id/dynamicControlsDemo" />
+        <action
+            android:id="@+id/action_nav_dynamiccontrols_to_runtimeDynamicControl"
+            app:destination="@id/runtimeDynamicControl" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dynamicControlsDemo"
+        android:name="com.example.createcontrolsdynamically.ui.dynamiccontrolsdemo.DynamicControlsDemo"
+        android:label="Grid View - Design Time"
+        tools:layout="@layout/dynamic_controls_demo_fragment" />
+    <fragment
+        android:id="@+id/runtimeDynamicControl"
+        android:name="com.example.createcontrolsdynamically.RuntimeDynamicControl"
+        android:label="Create Controls In Runtime"
+        tools:layout="@layout/runtime_dynamic_control_fragment" />
+
+</navigation>
